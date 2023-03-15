@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items:center;
+    background:#2E7BA2;
+    width:1440px;
+    height:128px;
+    padding:32px 120px;
+    gap:32px;
+
+}
+#logo{
+
+}
+nav{
+    width: 590px;
+    height:40px;
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    color:#FFFFFF;
+    gap:32px;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+}
